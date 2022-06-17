@@ -1,17 +1,15 @@
-# Welcome to MkDocs
+# NLT - Arduino
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Deze website is bedoeld als ondersteuning voor de Arduino-module binnen het keuzevak NLT gegeven op het Lyceum Oudehoven te Gorinchem.
 
-## Commands
+## Introductie
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Hier komen basiskennis en -vaardigheden aan bod met betrekking tot de Arduino microcontroller en programmeren. 
 
-## Project layout
+## Lessen
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Hier komt uitleg en toelichting bij de lessen in de module. 
+
+## Voorbeelden
+
+Hier komen enkele projecten waar ik zelf aan heb gewerkt ter illustratie van de mogelijkheden met een microcontroller en het programmeren ervan. 
