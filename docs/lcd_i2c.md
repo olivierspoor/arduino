@@ -39,13 +39,13 @@ Klik vervolgens op installeren. Hierna is de bibliotheek geïnstalleerd en klaar
 
 Wanneer je een (nieuwe) bibliotheek gebruikt om iets aan te sturen met een Arduino, is het noodzakelijk om de juiste code erbij te zoeken. Deze is meestal te vinden op de [site](https://arduino.cc/reference/en/libraries/liquidcrystal-i2c/) van arduino zelf of anders op de [site](https://github.comjohnrickman/LiquidCrystal_I2C) van de beheerder van de bibliotheek.
 
-#
-### Hello World!
+
+## Hello World!
 
 De code hieronder laat "Hello World!" op het scherm zien en telt vervolgens de seconden sinds dat de code is geupload. 
 
 
-```ino
+```arduino
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 
@@ -89,15 +89,15 @@ Vervolgens kan er geprint worden met `lcd.print()`. Als dit gaat om tekst (datat
 
 Dit alles staat in de `void setup()` omdat dit alles slechts een keer wordt uitgevoerd. In de `void loop()` wordt de tijd sinds het uploaden bijgehouden in seconden. Hiervoor wordt `millis()` (tijd in milliseconden) gebruikt. Deze wordt op de eerste positie van de tweede regel geprint. 
 
-#
-### Contrast 
+
+## Contrast 
 Het kan zijn dat het scherm moeilijk leesbaar is doordat het te licht of te donker is. Dit kan bijgesteld worden door middel van een potmeter. Dit is het blauwe gedeelte op de I2C (zie foto bovenaan). Om dit bij te stellen kan er gebruik gemaakt worden van een kleine schroevendraaier.  
 
-#
+
 
 Om het scherm leeg te maken wordt `lcd.clear()` gebruikt.
 
-```ino
+```arduino
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 
@@ -112,5 +112,3 @@ void loop(){
 
 }
 ```
-
-#

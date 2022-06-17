@@ -10,10 +10,48 @@ nav:
     - Home: index.md
 #    - Introductie:
     - Lessen:
-      - Drukknoppen: drukknopn.md
+      - Drukknoppen: drukknop.md
       - RGB-LEDlampje: rgb_led.md
       - LCD-scherm met I2C-backpack: lcd_i2c.md
 #    - Voorbeelden:
 
 
-theme: mkdocs
+theme: 
+    name: material
+    language: nl
+    palette:
+        primary: blue grey
+        accent: teal
+
+
+        # # Palette toggle for light mode
+        # - scheme: default
+        #   toggle:
+        #     icon: material/brightness-7 
+        #     name: Switch to dark mode
+
+        # # Palette toggle for dark mode
+        # - scheme: slate
+        #   toggle:
+        #     icon: material/brightness-4
+        #     name: Switch to light mode
+
+    features:
+    # - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/olivierspoor
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/olivierspoor
